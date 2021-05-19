@@ -695,3 +695,34 @@ table {
             animation: slideUp 1000ms 2.2s ease-in-out both;
   }
   
+/* Media Querries */
+
+@media screen and (min-width: 1440px) {
+    body {
+      max-width: 1200px;
+      margin: auto;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .footerframe {
+      text-align: center;
+      font-size: 22px;
+    }
+    .selection-btn {
+      margin: 40px 0 40px;
+    }
+  }
+  
+  #header {
+    font-family: "Shrikhand", sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    -webkit-box-shadow: 0 2px 0 #d5d5d5;
+            box-shadow: 0 2px 0 #d5d5d5;
+    position: relative;
+  }
+  
+  #header img {
+    width: 35%;
+  }

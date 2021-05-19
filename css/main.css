@@ -633,7 +633,7 @@ table {
   }
 
 
-/* Animations des plats */
+/* ANIMATION PLATS */
 
 .anim-entrer {
     -webkit-animation: slideUp 1000ms .2s ease-in-out both;
@@ -695,23 +695,29 @@ table {
             animation: slideUp 1000ms 2.2s ease-in-out both;
   }
   
-/* Media Querries */
+/* MEDIA QUERIES */
 
 @media screen and (min-width: 1440px) {
     body {
       max-width: 1200px;
       margin: auto;
     }
-  }
+
+
+.choicebtn1  {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        }
+    
+}
   
   @media screen and (min-width: 768px) {
     .footerframe {
       text-align: center;
       font-size: 22px;
     }
-    .selection-btn {
-      margin: 40px 0 40px;
-    }
+    
   }
   
   #header {

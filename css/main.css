@@ -1,0 +1,381 @@
+/* BODY */
+
+
+body {
+    background: #fff;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* DEBUT DU HEADER (TITRE/LOGO + LOCALISATION) */ 
+  
+  .headeraside {
+    text-align: center;
+    margin-top: 2px;
+    background-color: #eaeaea;
+    padding: 0.75em 0;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .fa-map-marker-alt {
+    margin-right: 1.625em;
+  }
+  
+  /* FLECHE DE RETOUR */ 
+  
+  .fa-arrow-left {
+    position: absolute;
+    left: 20px;
+    top: 24px;
+  }
+  
+  /* SECTION INFOS ( H1 + P ) */
+  
+  .info {
+    padding-bottom: 40px;
+    background-color: #f6f6f6;
+    font-family: "Roboto", sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .infotitle {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .infop {
+    text-align: center;
+    padding: 14px 0;
+  }
+  
+  .infobtn {
+    border: none;
+    margin: 0 auto;
+    padding: 14px;
+    border-radius: 20px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+    background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-box-shadow: 4px 4px 4px #d2d2d2;
+            box-shadow: 4px 4px 4px #d2d2d2;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .infobtn a {
+    color: #fff;
+  }
+  
+  .infobtn:hover {
+    opacity: .8;
+  }
+  
+  /* SECTION FONCTIONNEMENT (3 BOUTTONS) */
+  
+  .choice {
+    margin-left: 16px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .choicetitle {
+    margin-top: 30px;
+    font-size: 1.24em;
+  }
+  
+  .choicebtn1 {
+    text-align: center;
+  }
+  
+  
+  .choicebtn2 li {
+    padding: 24px 40px;
+    background-color: #fff;
+    margin: 30px 12px;
+    border-radius: 14px;
+    -webkit-box-shadow: 3px 3px 10px #c0c0c0;
+            box-shadow: 3px 3px 10px #c0c0c0;
+    position: relative;
+  }
+  
+  .choicebtn3 {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #9356DC;
+    min-height: 10px;
+    min-width: 17px;
+    color: #fff;
+    top: 50%;
+    left: -14px;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    padding: 6px;
+  }
+  
+  .choiceli:hover {
+    background-color: #d8c1f3;
+    cursor: pointer;
+  }
+  
+  .fa-mobile-alt {
+    margin-right: 20px;
+    color: #9356DC;
+  }
+  
+  .fa-list-ul {
+    color: #9356DC;
+    margin-right: 20px;
+    font-size: 18px;
+  }
+  
+  .fa-store {
+    margin-right: 20px;
+    color: #9356DC;
+  }
+  
+  /* SECTION LES 4 RESTAURANTS */
+  
+  .restaurant {
+    font-family: "Roboto", sans-serif;
+    background-color: #f6f6f6;
+    margin-top: 80px;
+    padding-bottom: 40px;
+  }
+  
+  .restauranttitle {
+    font-weight: bold;
+    font-size: 1.25em;
+    margin-left: 16px;
+    padding-top: 40px;
+  }
+  
+  
+  /* RESTAURANTS */
+  
+  .restaurantname {
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 20px 20px 10px 10px;
+    position: relative;
+    -webkit-box-shadow: 3px 3px 10px #c0c0c0;
+            box-shadow: 3px 3px 10px #c0c0c0;
+  }
+  
+  .restaurantname img {
+    width: 100%;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
+  
+  .restaurantnew {
+    position: absolute;
+    right: 14px;
+    top: 20px;
+    color: #008766;
+    background-color: #99e2d0;
+    padding: 7px 15px;
+    border-radius: 5%;
+  }
+  
+  .restaurantnametitle {
+    padding: 10px 0 5px 10px;
+    font-weight: bold;
+  }
+  
+  .restaurantcity {
+    padding: 0 0 14px 10px;
+  }
+  
+  /* LES 4 PAGES DU SITE */
+  
+  /* PHOTO & H1 */
+  
+  .imageh1 img {
+    width: 100%;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .imageh1 {
+    position: relative;
+  }
+  
+  .imageh1div {
+    font-family: "Shrikhand", sans-serif;
+    background-color: #f6f6f6;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    top: 175px;
+    width: 100%;
+  }
+  
+  
+  .imageh1name {
+    padding: 40px 30px 30px 16px;
+    position: relative;
+    font-size: 24px;
+  }
+  
+  /* SECTION (ENTREES +PLATS + DESSERTS) */
+  
+  .menuall {
+    background-color: #f6f6f6;
+    margin-top: 66px;
+  }
+  
+  /*  ENTREES + PLATS + DESSERTS */
+  
+  .menuspe {
+    padding-bottom: 30px;
+    -webkit-animation: slideUp 1000ms  ease-in-out both;
+            animation: slideUp 1000ms  ease-in-out both;
+    font-family: "Roboto", sans-serif;
+    margin: 0 12px;
+  }
+  
+  .dishtitle {
+    text-transform: uppercase;
+    padding-top: 20px;
+  }
+  
+  .dishunderline {
+    width: 11%;
+    height: 3px;
+    background-color: #99e2d0;
+  }
+  
+  .menu {
+    background: white;
+    border-radius: 1rem;
+    position: relative;
+    width: 100%;
+    margin: 1rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-shadow: 2px 4px 8px 3px rgba(0, 0, 0, 0.1);
+            box-shadow: 2px 4px 8px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .menu-container {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    position: relative;
+    padding: .8rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .menu-detail {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  
+  .menu-details {
+    font-size: .9rem;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .menu-details .price {
+    font-size: .9rem;
+    font-weight: 700;
+    position: absolute;
+    right: 1rem;
+    bottom: .8rem;
+  }
+  
+  .menu-icon {
+    background-color: #99E2D0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 0%;
+    -webkit-transition: 1s;
+    transition: 1s;
+  }
+  
+  .menu-icon .fa-check-circle {
+    opacity: 0;
+    color: white;
+    font-size: 1.2rem;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    -webkit-transition: .8s;
+    transition: .8s;
+  }
+  
+  /* BOUTON COMMANDER */
+  
+  .menu-btn {
+    border: none;
+    width: 40%;
+    margin: 60px auto 40px;
+    padding: 14px;
+    border-radius: 20px;
+    color: #fff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356DC));
+    background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-box-shadow: 4px 4px 4px #d2d2d2;
+            box-shadow: 4px 4px 4px #d2d2d2;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .menu-btn a {
+    color: #fff;
+  }
+  
+  .menu-btn:hover {
+    opacity: .8;
+  }
+  
+  /* FOOTER */
+  
+  .footer {
+    background-color: #353535;
+    color: #fff;
+  }
+  
+  .footerframe {
+    margin-left: 16px;
+    padding: 15px 0 40px 0;
+  }
+  
+  .footertitle {
+    font-family: "Shrikhand", sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .fa-utensils, .fa-hands-helping {
+    margin-right: 10px;
+    padding: 5px 5px 5px 5px;
+  }
+  
+  .footercontent {
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }

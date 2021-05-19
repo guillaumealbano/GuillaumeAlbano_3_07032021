@@ -579,3 +579,26 @@ table {
     opacity: 1;
   }
 }
+
+/* ANIMATION DES MENUS */
+
+.menu:hover {
+    -webkit-transform: translate(0px);
+            transform: translate(0px);
+  }
+  
+  .menu:hover {
+    -webkit-transform: rotate(-360deg);
+            transform: rotate(-360deg);
+  }
+  
+  .menu:hover .menu-icon {
+    width: 15%;
+  }
+  
+  .menu:hover .fa-check-circle {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    opacity: 1;
+  }
+  
